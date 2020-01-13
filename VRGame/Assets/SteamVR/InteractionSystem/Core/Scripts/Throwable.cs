@@ -7,6 +7,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Valve.VR.InteractionSystem
 {
@@ -43,7 +44,8 @@ namespace Valve.VR.InteractionSystem
 
 
 		protected VelocityEstimator velocityEstimator;
-        protected bool attached = false;
+        //muutettu protected -> public
+        public bool attached = false;
         protected float attachTime;
         protected Vector3 attachPosition;
         protected Quaternion attachRotation;
