@@ -10,9 +10,6 @@ public class FollowPlayerMovement : MonoBehaviour
     void Update()
     {
         transform.LookAt(Player.transform);
-
-
-
     }
 }
 
