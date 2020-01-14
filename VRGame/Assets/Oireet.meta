@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:VRGame/Assets/SteamVR/InteractionSystem/Core/Prefabs/Building.waving.anim.meta
-guid: 44b35f6f8299a054b9423b3990f64693
-NativeFormatImporter:
-=======
 guid: ab77a0e52168b9343b15ce1bbf8bad76
 folderAsset: yes
 DefaultImporter:
->>>>>>> ef551ac9bceb1c5177e9e68ee8c883e6737d5111:VRGame/Assets/Oireet.meta
   externalObjects: {}
-  mainObjectFileID: 7400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

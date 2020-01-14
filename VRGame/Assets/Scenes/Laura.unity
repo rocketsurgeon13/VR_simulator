@@ -892,7 +892,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4e60bea6a8e7bd64090827392cb3d68b, type: 3}
+      objectReference: {fileID: 8300000, guid: 2bccdc8af7f9f1d489e097e78575f4f5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e043ce4aca94f074ea891032adb03e8c, type: 3}
 --- !u!1001 &437812659
@@ -3593,6 +3593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ResolutionChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597831697258164175, guid: 907a52e4186661d48bdfa71675532fc2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 907a52e4186661d48bdfa71675532fc2, type: 3}
