@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.107435
+      value: 13.36
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -483,8 +483,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759399828}
   m_LocalRotation: {x: -0.08802502, y: 0, z: 0, w: 0.99611825}
-  m_LocalPosition: {x: 5.74, y: -6.8608227, z: 0.62}
-  m_LocalScale: {x: 2.9, y: 1.025, z: 3.5}
+  m_LocalPosition: {x: 5.11, y: -6.8608227, z: 0.27}
+  m_LocalScale: {x: 3.5, y: 1.025, z: 2.07}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -516,7 +516,6 @@ GameObject:
   - component: {fileID: 950536105}
   - component: {fileID: 950536104}
   - component: {fileID: 950536110}
-  - component: {fileID: 950536108}
   - component: {fileID: 950536109}
   m_Layer: 0
   m_Name: LeftWaving
@@ -592,31 +591,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950536103}
   m_LocalRotation: {x: 0, y: 0, z: -0.08802502, w: 0.99611825}
-  m_LocalPosition: {x: 12.8, y: -6.732483, z: -5.37}
-  m_LocalScale: {x: 2.9, y: 1.025, z: 3.5}
+  m_LocalPosition: {x: 7.6, y: -6.732483, z: -6.36}
+  m_LocalScale: {x: 2.07, y: 1.025, z: 3.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.1}
---- !u!95 &950536108
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950536103}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0271610faf46e2e428bdca2086cb8ea6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &950536109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,8 +739,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036502003}
   m_LocalRotation: {x: 0, y: 0, z: 0.08802502, w: 0.99611825}
-  m_LocalPosition: {x: 1.83, y: -6.85, z: -4.1}
-  m_LocalScale: {x: 2.9, y: 1.025, z: 3.5}
+  m_LocalPosition: {x: 1.16, y: -6.85, z: -4.98}
+  m_LocalScale: {x: 2.07, y: 1.025, z: 3.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -941,7 +921,6 @@ GameObject:
   - component: {fileID: 1217568929}
   - component: {fileID: 1217568928}
   - component: {fileID: 1217568927}
-  - component: {fileID: 1217568926}
   - component: {fileID: 1217568925}
   m_Layer: 0
   m_Name: RightWaving (1)
@@ -964,25 +943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 178931451}
   rotationResetSpeed: 1
---- !u!95 &1217568926
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217568924}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!65 &1217568927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1063,8 +1023,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217568924}
   m_LocalRotation: {x: -0.08802502, y: 0, z: 0, w: 0.99611825}
-  m_LocalPosition: {x: 6.62, y: -6.8875923, z: -10.71}
-  m_LocalScale: {x: 2.9, y: 1.025, z: 3.5}
+  m_LocalPosition: {x: 3.36, y: -6.8875923, z: -11.45}
+  m_LocalScale: {x: 3.5, y: 1.025, z: 2.07}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
