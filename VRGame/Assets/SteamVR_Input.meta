@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:VRGame/Assets/SteamVR/InteractionSystem/Core/Prefabs/Cube.controller.meta
-guid: 0271610faf46e2e428bdca2086cb8ea6
-NativeFormatImporter:
-=======
-guid: b61d262db59493b4d9473f7f4b059649
+guid: 6f912db65e18a6f47abc01aa10759176
 folderAsset: yes
 DefaultImporter:
->>>>>>> ef551ac9bceb1c5177e9e68ee8c883e6737d5111:VRGame/Assets/SteamVR_Input.meta
   externalObjects: {}
-  mainObjectFileID: 9100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
