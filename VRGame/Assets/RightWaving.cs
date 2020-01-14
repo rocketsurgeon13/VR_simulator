@@ -13,7 +13,7 @@ public class RightWaving : MonoBehaviour{
     }
     private void OnTriggerExit(Collider other) {
         if(other.gameObject.name == "HeadCollider") {
-            Player.transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, rotationResetSpeed);
+            //Player.transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, rotationResetSpeed);
         }
     }
 
