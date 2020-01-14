@@ -18,11 +18,16 @@ public class Tasapaino : MonoBehaviour
     void Update()
     {
         if (GetComponent<Throwable>().attached) {
-            transform.Rotate(0f, 0f, rotationSpeed, Space.World);
+            if (transform.rotation.z >= 0) {
+                transform.Rotate(0f, 0f, rotationSpeed, Space.World);
+            }
+            else {
+                transform.Rotate(0f, 0f, -rotationSpeed, Space.World);
+            }
         }
 
-        if (transform.rotation.z > 90) {
-            
+        if (transform.rotation.z > 90 || transform.rotation.z < -90) {
+            Debug.Log("Rotation > 90");
         }
     }
 }

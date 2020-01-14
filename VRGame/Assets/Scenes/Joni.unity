@@ -481,8 +481,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.3604004e+22, y: 1.7850305e+31, z: 1.7077767e+19,
-    w: 1.7590504e+22}
+  m_BoundingSphereOverride: {x: -1.114e-42, y: 6e-45, z: 2.4e-44, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1147,6 +1146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CubeRotating
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883954339742647597, guid: 26222e7066fd1024cacac67e1bf4782c,
+        type: 3}
+      propertyPath: releaseVelocityStyle
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26222e7066fd1024cacac67e1bf4782c, type: 3}
