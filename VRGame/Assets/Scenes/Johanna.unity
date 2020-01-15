@@ -382,6 +382,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &667437021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667437022}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &667437022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667437021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.91, y: -4.3, z: -8.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &759399828
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,8 +531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 178931451}
-  rotationResetSpeed: 1
+  Player: {fileID: 1535868238}
+  rotationResetSpeed: 0.5
 --- !u!1 &950536103
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,8 +639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 178931451}
-  rotationResetSpeed: 6
+  Player: {fileID: 1535868238}
+  rotationResetSpeed: 0.5
 --- !u!65 &950536110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -657,8 +687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 178931451}
-  rotationResetSpeed: 6
+  Player: {fileID: 1535868238}
+  rotationResetSpeed: 0.5
 --- !u!65 &1036502006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -941,8 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 178931451}
-  rotationResetSpeed: 1
+  Player: {fileID: 1535868238}
+  rotationResetSpeed: 0.5
 --- !u!65 &1217568927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1029,3 +1059,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -10.1, y: 0, z: 0}
+--- !u!1 &1535868238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1854716520121525917, guid: 7562cc25413ef0840a7526074a95fdcc,
+    type: 3}
+  m_PrefabInstance: {fileID: 155421601}
+  m_PrefabAsset: {fileID: 0}
