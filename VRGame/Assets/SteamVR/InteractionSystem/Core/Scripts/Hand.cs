@@ -3,6 +3,7 @@
 // Purpose: The hands used by the player in the vr interaction system
 //
 //=============================================================================
+// Muokatut rivit: 160, 161, 1110-1115
 
 using UnityEngine;
 using System;
@@ -156,6 +157,8 @@ namespace Valve.VR.InteractionSystem
             }
         }
 
+        float tickTimer = 0f;
+        public float dropTick = 120f;
 
         //-------------------------------------------------
         // The Interactable object this Hand is currently hovering over
@@ -1098,12 +1101,18 @@ namespace Valve.VR.InteractionSystem
 
         //-------------------------------------------------
         protected virtual void Update()
-        {
+        { 
             UpdateNoSteamVRFallback();
 
             GameObject attachedObject = currentAttachedObject;
             if (attachedObject != null)
             {
+                tickTimer += Time.deltaTime;
+                if (tickTimer > dropTick) {
+                    DetachObject(attachedObject);
+                    //Debug.Log("Joooo");
+                    tickTimer -= dropTick;
+                }
                 attachedObject.SendMessage("HandAttachedUpdate", this, SendMessageOptions.DontRequireReceiver);
             }
 
