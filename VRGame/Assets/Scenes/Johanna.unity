@@ -531,8 +531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1535868238}
-  rotationResetSpeed: 0.5
+  Player: {fileID: 178931451}
+  rotationResetSpeed: 0.2
 --- !u!1 &950536103
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,8 +639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1535868238}
-  rotationResetSpeed: 0.5
+  Player: {fileID: 178931451}
+  rotationResetSpeed: 0.2
 --- !u!65 &950536110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -687,8 +687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1535868238}
-  rotationResetSpeed: 0.5
+  Player: {fileID: 178931451}
+  rotationResetSpeed: 0.2
 --- !u!65 &1036502006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -971,8 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1535868238}
-  rotationResetSpeed: 0.5
+  Player: {fileID: 178931451}
+  rotationResetSpeed: 0.2
 --- !u!65 &1217568927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1059,9 +1059,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -10.1, y: 0, z: 0}
---- !u!1 &1535868238 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1854716520121525917, guid: 7562cc25413ef0840a7526074a95fdcc,
-    type: 3}
-  m_PrefabInstance: {fileID: 155421601}
-  m_PrefabAsset: {fileID: 0}
