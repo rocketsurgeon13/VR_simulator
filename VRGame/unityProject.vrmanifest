@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vrsimulator.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Projects\\Multiple Sclerosis Is A SOAB\\VRGame\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\Projects\\J\\VR_simulator\\VRGame\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VR-Simulator [Testing]"
