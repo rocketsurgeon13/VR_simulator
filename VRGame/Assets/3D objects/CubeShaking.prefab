@@ -328,4 +328,4 @@ MonoBehaviour:
   currentAmplitude: 0
   frequency: 5
   amplitudeIncrease: 2
-  dropTick: 10
+  dropTick: 3
