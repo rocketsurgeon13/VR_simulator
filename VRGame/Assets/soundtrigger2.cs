@@ -16,12 +16,9 @@ public class soundtrigger2 : MonoBehaviour
     }
     private void OnTriggerEnter()
     {
-        if (!AlreadyPlayed)
-        {
             audio.PlayOneShot(soundtoplay, Volume);
 
-            AlreadyPlayed = true;
-        }
+     
     }
     // Update is called once per frame
 
