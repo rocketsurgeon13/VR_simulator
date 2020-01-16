@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FINAL SCENES/Start_scene.unity
+    guid: 825662f54543c0241af0f4018f30bb46
+  - enabled: 1
+    path: Assets/Scenes/FINAL SCENES/Muscle Weakness.unity
+    guid: a13532b3a06578e48918eb70cb864c03
+  - enabled: 1
+    path: Assets/Scenes/FINAL SCENES/Balance.unity
+    guid: 0e96d6756f7f87d4abbb142c3019eb62
+  - enabled: 1
+    path: Assets/Scenes/FINAL SCENES/Optic Neuritis.unity
+    guid: 26a04bf3144c021479a6824e7a5c2785
   m_configObjects: {}
