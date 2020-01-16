@@ -150,7 +150,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69244
+  m_Name: pb_Mesh-96964
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -307,6 +307,64 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &424710347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560535365798286231, guid: f423c26f96bd04e4e8c71e435da0b044,
+    type: 3}
+  m_PrefabInstance: {fileID: 1090743029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!145 &424710355
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424710347}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.08168372, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.5360485, y: 1.4485, z: -2.3574693}
+  serializedVersion: 2
+  m_Spring: 250
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!1 &501918017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560535367755970678, guid: f423c26f96bd04e4e8c71e435da0b044,
+    type: 3}
+  m_PrefabInstance: {fileID: 1090743029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!145 &501918025
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501918017}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.08168372, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.557005, y: 1.4485002, z: -2.7341409}
+  serializedVersion: 2
+  m_Spring: 300
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1001 &503921778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -381,6 +439,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e6f2aceadeaf424583e27dde0d2bb22, type: 3}
+--- !u!1 &511157034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560535367440819296, guid: f423c26f96bd04e4e8c71e435da0b044,
+    type: 3}
+  m_PrefabInstance: {fileID: 1090743029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!145 &511157036
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511157034}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.08168372, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.56051296, y: 1.4484248, z: -2.9140677}
+  serializedVersion: 2
+  m_Spring: 400
+  m_Damper: 0.3
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!4 &691410777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5883954339742647595, guid: 26222e7066fd1024cacac67e1bf4782c,
@@ -399,7 +486,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69052
+  m_Name: pb_Mesh-96774
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -556,13 +643,42 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &796025769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560535366955172120, guid: f423c26f96bd04e4e8c71e435da0b044,
+    type: 3}
+  m_PrefabInstance: {fileID: 1090743029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!145 &796025777
+SpringJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796025769}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.08168372, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.5468955, y: 1.4485, z: -2.562035}
+  serializedVersion: 2
+  m_Spring: 200
+  m_Damper: 0.2
+  m_MinDistance: 0
+  m_MaxDistance: 0
+  m_Tolerance: 0.025
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!43 &796719745
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69062
+  m_Name: pb_Mesh-96784
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -808,12 +924,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3574787362540787315, guid: f423c26f96bd04e4e8c71e435da0b044,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.031
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574787362540787315, guid: f423c26f96bd04e4e8c71e435da0b044,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.305
+      objectReference: {fileID: 0}
     - target: {fileID: 7419057439691951219, guid: f423c26f96bd04e4e8c71e435da0b044,
         type: 3}
       propertyPath: m_Name
       value: switches_placed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 560535367440819301, guid: f423c26f96bd04e4e8c71e435da0b044, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f423c26f96bd04e4e8c71e435da0b044, type: 3}
 --- !u!4 &1143328586 stripped
 Transform:
@@ -869,7 +996,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36778
+  m_Name: pb_Mesh42534
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
