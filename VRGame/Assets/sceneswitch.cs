@@ -7,16 +7,16 @@ using UnityEngine.SceneManagement;
 public class sceneswitch : MonoBehaviour
     
 {
-   
 
 
-    
 
-    public void NextScene()
+
+
+
+    public void LoadScene()
     {
-        SceneManager.LoadScene("blank");
+        SceneManager.LoadScene(1);
     }
-   
     // Start is called before the first frame update
     void Start()
     {
@@ -25,10 +25,13 @@ public class sceneswitch : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("osui");
+    }
     void Update()
     {
 
-
+       
     }
 }
