@@ -9,10 +9,22 @@ public class Pinottava : MonoBehaviour
     List<GameObject> pinotut;
 
     private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.layer != 9) { 
         var pinottava = other.GetComponent<Pinottava>();
-        if (pinottava != null && pinottava.pinottu == true && pinottu == false) {
-            pinotut.Add(gameObject);
-            pinottu = true;
+            if (pinottava != null && pinottava.pinottu == true && pinottu == false) {
+                pinotut.Add(gameObject);
+                pinottu = true;
+            }
+        }
+    }
+
+    private void OnTriggerStay(Collider other) {
+        if (other.gameObject.layer != 9) {
+            var pinottava = other.GetComponent<Pinottava>();
+            if (pinottava != null && pinottava.pinottu == true && pinottu == false) {
+                pinotut.Add(gameObject);
+                pinottu = true;
+            }
         }
     }
 
@@ -31,9 +43,6 @@ public class Pinottava : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (pinottu) {
-        //    gameObject.AddComponent<TriggerThing>();
-        //    pinottu = false;
-        //}
+
     }
 }

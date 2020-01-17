@@ -5,13 +5,12 @@ using UnityEngine;
 public class TriggerThing : MonoBehaviour
 {
     public List<GameObject> pinotut;
+    bool voitettu = false;
+    float tickTimer = 0f;
+    float tick = 2f;
 
-    private void OnTriggerEnter(Collider other) { 
-        var pinottava = other.GetComponent<Pinottava>();
-        if (pinottava != null && pinotut.Count < 1) {
-            pinotut.Add(other.gameObject);
-            pinottava.pinottu = true;
-        }
+    private void OnTriggerEnter(Collider other) {
+        LisaaPinoon(other);
         Debug.Log(pinotut.Count + " enter " + gameObject);
     }
 
@@ -24,15 +23,37 @@ public class TriggerThing : MonoBehaviour
         Debug.Log(pinotut.Count + " exit " + gameObject);
     }
 
+    private void OnTriggerStay(Collider other) {
+        LisaaPinoon(other);
+    }
+
+    void LisaaPinoon(Collider other) {
+        if (other.gameObject.layer != 9) {
+            var pinottava = other.GetComponent<Pinottava>();
+            if (pinottava != null && pinotut.Count < 1) {
+                pinotut.Add(other.gameObject);
+                pinottava.pinottu = true;
+            }
+        }
+    }
+
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         Debug.Log(pinotut.Count + " " + gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (pinotut.Count >= 4 && !voitettu) {
+            tickTimer += Time.deltaTime;
+            if (tickTimer > tick) {
+                Debug.Log("voitit pelin");
+                voitettu = true;
+            }
+        }
+        if (pinotut.Count < 4 && voitettu) {
+            voitettu = false;
+        }
     }
 }
