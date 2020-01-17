@@ -5,6 +5,7 @@ using UnityEngine;
 public class TriggerThing : MonoBehaviour
 {
     public List<GameObject> pinotut;
+    public float amountToWin = 4;
     bool voitettu = false;
     float tickTimer = 0f;
     float tick = 2f;
@@ -45,14 +46,16 @@ public class TriggerThing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pinotut.Count >= 4 && !voitettu) {
+        if (pinotut.Count >= amountToWin && !voitettu) {
             tickTimer += Time.deltaTime;
             if (tickTimer > tick) {
                 Debug.Log("voitit pelin");
+                gameObject.GetComponent<AudioSource>().Play();
                 voitettu = true;
+                tickTimer = 0;
             }
         }
-        if (pinotut.Count < 4 && voitettu) {
+        if (pinotut.Count < amountToWin && voitettu) {
             voitettu = false;
         }
     }
