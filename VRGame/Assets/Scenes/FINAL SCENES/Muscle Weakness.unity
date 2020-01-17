@@ -304,6 +304,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7194613329607407067, guid: e54212be7b3384d4993ccf5debb39d01,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 20dfdc949001a3a4391911469900562d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e54212be7b3384d4993ccf5debb39d01, type: 3}
 --- !u!4 &277202817 stripped
