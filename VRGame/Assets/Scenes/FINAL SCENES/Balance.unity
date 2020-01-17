@@ -1132,7 +1132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1180,6 +1180,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+--- !u!1 &1186302277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1186302276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1251516195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9111542870985113940, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
@@ -1809,7 +1815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 5903138356150050028}
+  Player: {fileID: 1186302277}
   rotationResetSpeed: 0.2
 --- !u!114 &4931443265803668776
 MonoBehaviour:
@@ -2043,7 +2049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 5903138356150050028}
+  Player: {fileID: 1186302277}
   rotationResetSpeed: 0.2
 --- !u!1 &4931443266068605469
 GameObject:
@@ -2412,7 +2418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 5903138356150050028}
+  Player: {fileID: 1186302277}
   rotationResetSpeed: 0.2
 --- !u!164 &4931443266159455823
 AudioReverbFilter:
@@ -2483,7 +2489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 5903138356150050028}
+  Player: {fileID: 1186302277}
   rotationResetSpeed: 0.2
 --- !u!33 &4931443266436032546
 MeshFilter:
