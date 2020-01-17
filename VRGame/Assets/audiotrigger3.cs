@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
+
 public class audiotrigger3 : MonoBehaviour
 {
     public AudioClip soundtoplay;
@@ -25,4 +25,3 @@ public class audiotrigger3 : MonoBehaviour
     // Update is called once per frame
 
 }
-*/
