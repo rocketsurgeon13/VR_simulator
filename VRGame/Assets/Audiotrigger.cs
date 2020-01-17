@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
-public class playsound : MonoBehaviour
+
+public class audiotrigger : MonoBehaviour
 {
     public AudioClip soundtoplay;
     public float Volume;
@@ -16,13 +16,10 @@ public class playsound : MonoBehaviour
     }   
     private void OnTriggerEnter()
     {
-        if (!AlreadyPlayed)
-        {
+   
             audio.PlayOneShot(soundtoplay, Volume);
 
-            AlreadyPlayed = true;
         }
     }
     // Update is called once per frame
 
-}*/
