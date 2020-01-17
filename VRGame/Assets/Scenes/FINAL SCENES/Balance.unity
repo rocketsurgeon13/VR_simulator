@@ -232,7 +232,7 @@ PrefabInstance:
     - target: {fileID: 4692590431721632766, guid: af3e0614ba972f94bb633e4953e6c436,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.184
+      value: 6.61
       objectReference: {fileID: 0}
     - target: {fileID: 4692590431721632766, guid: af3e0614ba972f94bb633e4953e6c436,
         type: 3}
@@ -318,7 +318,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-65872
+  m_Name: pb_Mesh-620816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -487,7 +487,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-65708
+  m_Name: pb_Mesh-620664
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -758,7 +758,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-65718
+  m_Name: pb_Mesh-620674
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1074,7 +1074,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44896
+  m_Name: pb_Mesh37168
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1761,6 +1761,7 @@ GameObject:
   - component: {fileID: 4931443265803668775}
   - component: {fileID: 4931443265803668776}
   - component: {fileID: 4931443265803668777}
+  - component: {fileID: 4931443265803668778}
   m_Layer: 0
   m_Name: RightWaving (1)
   m_TagString: Untagged
@@ -1809,7 +1810,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0bec9342994a8694eb1a649a35c98ab8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.365
+  m_Volume: 0.175
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1893,6 +1894,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &4931443265803668778
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4931443265803668774}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -4000
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.1
+  m_ReflectionsLevel: -449
+  m_ReverbLevel: 1700
+  m_ReverbDelay: 0.011
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 23
 --- !u!33 &4931443266068605456
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1909,7 +1933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4931443266068605469}
   m_LocalRotation: {x: -0, y: -0, z: -0.13139133, w: 0.9913306}
-  m_LocalPosition: {x: -7.05, y: -2.4324827, z: 2.76}
+  m_LocalPosition: {x: 4.0150003, y: -2.4324827, z: 2.76}
   m_LocalScale: {x: 2.07, y: 1.025, z: 3.5}
   m_Children: []
   m_Father: {fileID: 4931443266326538852}
@@ -2041,9 +2065,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eca6ff650293662438a44ee939bbfb07, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.365
+  m_Volume: 0.175
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2203,6 +2227,7 @@ GameObject:
   - component: {fileID: 4931443266159455822}
   - component: {fileID: 4931443266159455818}
   - component: {fileID: 4931443266159455819}
+  - component: {fileID: 4931443266159455823}
   m_Layer: 0
   m_Name: LeftWaving (1)
   m_TagString: Untagged
@@ -2237,7 +2262,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: eca6ff650293662438a44ee939bbfb07, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.365
+  m_Volume: 0.175
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2361,6 +2386,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 941776914}
   rotationResetSpeed: 0.2
+--- !u!164 &4931443266159455823
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4931443266159455817}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -4000
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.1
+  m_ReflectionsLevel: -449
+  m_ReverbLevel: 1700
+  m_ReverbDelay: 0.011
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 23
 --- !u!4 &4931443266326538852
 Transform:
   m_ObjectHideFlags: 0
@@ -2545,7 +2593,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0bec9342994a8694eb1a649a35c98ab8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.365
+  m_Volume: 0.175
   m_Pitch: 1
   Loop: 0
   Mute: 0
