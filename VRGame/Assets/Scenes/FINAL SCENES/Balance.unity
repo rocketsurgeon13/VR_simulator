@@ -324,6 +324,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: switchplacement_texts
       objectReference: {fileID: 0}
+    - target: {fileID: 7128475086532620141, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128475087100352666, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128475087416575116, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128475087688498658, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9105397119442630241, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
         type: 3}
       propertyPath: loadThisScene
@@ -839,12 +859,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2168610575908768896, guid: 11bf660d068beb64d9e6b546ca27886c,
     type: 3}
   m_PrefabInstance: {fileID: 5903138357485247770}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &941776914 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1186302276}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &1061142981
 Mesh:
@@ -1795,7 +1809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 941776914}
+  Player: {fileID: 5903138356150050028}
   rotationResetSpeed: 0.2
 --- !u!114 &4931443265803668776
 MonoBehaviour:
@@ -2029,7 +2043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 941776914}
+  Player: {fileID: 5903138356150050028}
   rotationResetSpeed: 0.2
 --- !u!1 &4931443266068605469
 GameObject:
@@ -2398,7 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2ae0def16cc974b95c824e57b2355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 941776914}
+  Player: {fileID: 5903138356150050028}
   rotationResetSpeed: 0.2
 --- !u!164 &4931443266159455823
 AudioReverbFilter:
@@ -2469,7 +2483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb1e75197b7364bb982ebae4d9eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 941776914}
+  Player: {fileID: 5903138356150050028}
   rotationResetSpeed: 0.2
 --- !u!33 &4931443266436032546
 MeshFilter:
