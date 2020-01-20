@@ -3,7 +3,7 @@
 // Purpose: The hands used by the player in the vr interaction system
 //
 //=============================================================================
-// Muokatut rivit: 160, 161, 1110-1115
+// Muokatut rivit: 160, 161, 604, 1111-1114
 
 using UnityEngine;
 using System;
@@ -601,6 +601,7 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         public void DetachObject(GameObject objectToDetach, bool restoreOriginalParent = true)
         {
+            tickTimer -= dropTick;
             int index = attachedObjects.FindIndex(l => l.attachedObject == objectToDetach);
             if (index != -1)
             {
@@ -1110,8 +1111,6 @@ namespace Valve.VR.InteractionSystem
                 tickTimer += Time.deltaTime;
                 if (tickTimer > dropTick) {
                     DetachObject(attachedObject);
-                    //Debug.Log("Joooo");
-                    tickTimer -= dropTick;
                 }
                 attachedObject.SendMessage("HandAttachedUpdate", this, SendMessageOptions.DontRequireReceiver);
             }
