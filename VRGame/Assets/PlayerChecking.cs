@@ -15,8 +15,4 @@ public class PlayerChecking : MonoBehaviour{
         }
         
     }
-
-    void Update(){
-        
-    }
 }
