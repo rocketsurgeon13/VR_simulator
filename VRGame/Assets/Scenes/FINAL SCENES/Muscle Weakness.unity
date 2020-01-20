@@ -390,6 +390,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -1.804735
       objectReference: {fileID: 0}
+    - target: {fileID: 9105397120351338925, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9105397120868521079, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
         type: 3}
       propertyPath: loadThisScene

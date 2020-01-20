@@ -5624,6 +5624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Switch_with_light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7839142127155966072, guid: 877a155581bb534468d1d3487ffd51fa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7839142127602152106, guid: 877a155581bb534468d1d3487ffd51fa,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
