@@ -1283,6 +1283,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
 --- !u!1 &1186302277 stripped
@@ -4522,6 +4526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cubeobject (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece698f44f64a3f46b10e96ecc3981b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece698f44f64a3f46b10e96ecc3981b0, type: 3}
 --- !u!1 &5903138356674952536 stripped
@@ -4629,6 +4638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cubeobject
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece698f44f64a3f46b10e96ecc3981b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece698f44f64a3f46b10e96ecc3981b0, type: 3}
@@ -4829,6 +4843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cubeobject (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece698f44f64a3f46b10e96ecc3981b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece698f44f64a3f46b10e96ecc3981b0, type: 3}
 --- !u!1001 &5903138356994873124
@@ -4917,6 +4936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cubeobject (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece698f44f64a3f46b10e96ecc3981b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece698f44f64a3f46b10e96ecc3981b0, type: 3}
@@ -5031,6 +5055,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: eca320ab96ed898408656eb945f70888, type: 3}
+    - target: {fileID: 7106283090794760126, guid: e043ce4aca94f074ea891032adb03e8c,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.494
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e043ce4aca94f074ea891032adb03e8c, type: 3}
 --- !u!1001 &5903138357135269835
