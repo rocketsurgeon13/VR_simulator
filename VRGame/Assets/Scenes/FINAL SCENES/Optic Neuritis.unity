@@ -1501,15 +1501,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.56
+      value: 1.954
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.045
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.03
+      value: -2.799
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2846,6 +2846,7 @@ MonoBehaviour:
   soundtoplay: {fileID: 8300000, guid: 08ffa9a3c765bcc47a69c2e29ba2ca37, type: 3}
   Volume: 1
   AlreadyPlayed: 0
+  lightTimer: 1
 --- !u!65 &1759357394
 BoxCollider:
   m_ObjectHideFlags: 0
