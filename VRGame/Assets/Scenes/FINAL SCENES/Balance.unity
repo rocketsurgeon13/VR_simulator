@@ -324,6 +324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: switchplacement_texts
       objectReference: {fileID: 0}
+    - target: {fileID: 2831243116937320402, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6745098
+      objectReference: {fileID: 0}
     - target: {fileID: 2831243117492171434, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
         type: 3}
       propertyPath: m_Color.r
@@ -332,7 +337,7 @@ PrefabInstance:
     - target: {fileID: 2831243117492171434, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
         type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.6745098
       objectReference: {fileID: 0}
     - target: {fileID: 2831243117492171434, guid: 6b6b7618fd61b8f429a88913b35ef7b0,
         type: 3}
